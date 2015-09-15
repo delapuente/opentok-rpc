@@ -1,0 +1,25 @@
+{
+  "name": "opentok-rpc",
+  "version": "1.0.0",
+  "authors": [
+    "Salvador de la Puente <salva@unoyunodiez.com>"
+  ],
+  "description": "An RPC extension for OpenTok",
+  "main": "src/opentok-rpc.js",
+  "keywords": [
+    "opentok",
+    "rpc",
+    "webrtc",
+    "remote",
+    "call"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lodr/opentok-rpc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
