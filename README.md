@@ -18,6 +18,10 @@ session.rpc.call('multiply', 6, 7).then(function (result) {
 ## Installation
 Just include the library just after adding the OpenTok library. OpenTok RPC will modify the base library to add all the required components.
 
+```html
+<script src="https://cdn.rawgit.com/lodr/opentok-rpc/1.0.0/src/opentok-rpc.js"></script>
+```
+
 ## Usage
 To perform RPC you need a way to expose those functions you want to call remotely and some way to call them.
 
@@ -27,7 +31,7 @@ When exposing functions for RPC you use `session.rpc.expose()` passing a map wit
 For more advanced functionallity like creating remote procedures dynamically, you can pass a function or an object with a `getImplementation()` method. Either way, this function or method will be called with the name and parameters from the remote call. The returning value must be the function to be called.
 
 ### Calling RPC functions
-If you want to call a remote procedure, you use `session.rpc()` passing the name of the remote function as the first parameter and its arguments.
+If you want to call a remote procedure, you use `session.rpc.call()` passing the name of the remote function as the first parameter and its arguments.
 
 When performing RPC, you broadcast the call to any client in the OpenTok room. If you want to limit the call to one specific connection, use:
 
