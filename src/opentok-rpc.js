@@ -79,7 +79,7 @@
         );
 
         if (config.timeout > 0) {
-          setTimeout(() => reject('timeout'), config.timeout * 1000);
+          setTimeout(function () { reject('timeout'); }, config.timeout * 1000);
         }
       });
     },
