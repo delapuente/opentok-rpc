@@ -19,7 +19,7 @@ session.rpc.call('multiply', 6, 7).then(function (result) {
 Just include the library just after adding the OpenTok library. OpenTok RPC will modify the base library to add all the required components.
 
 ```html
-<script src="https://cdn.rawgit.com/lodr/opentok-rpc/1.0.0/src/opentok-rpc.js"></script>
+<script src="https://cdn.rawgit.com/delapuente/opentok-rpc/1.0.0/src/opentok-rpc.js"></script>
 ```
 
 ## Usage

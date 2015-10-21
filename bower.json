@@ -1,6 +1,6 @@
 {
   "name": "opentok-rpc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "Salvador de la Puente <salva@unoyunodiez.com>"
   ],
@@ -14,7 +14,7 @@
     "call"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/lodr/opentok-rpc",
+  "homepage": "https://github.com/delapuente/opentok-rpc",
   "ignore": [
     "**/.*",
     "node_modules",
